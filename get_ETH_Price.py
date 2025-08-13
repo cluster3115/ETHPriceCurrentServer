@@ -30,12 +30,12 @@ def getData() -> float:
     }
     try:
         response = requests.get(url, params=params, timeout=10)
-        response.raise_for_status()  # 抛出 HTTP 请求错误
+        response.raise_for_status()  # Throw HTTP request error
         data = response.json()
         return float(data["ethereum"]["usd"])
     except Exception as e:
         print(f"Error fetching ETH price: {e}")
-        return -1.0  # 用一个错误标记值
+        return -1.0  # Use an error flag value
 
 # Define MCP tools
 
