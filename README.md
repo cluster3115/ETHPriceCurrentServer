@@ -1,10 +1,9 @@
 
----
-
 # ETHPriceCurrentServer — MCP Server for Live ETH Price
 
 A minimal **Model Context Protocol (MCP)** server that fetches the **current Ethereum (ETH) price in USD**.  
 Data source: the public CoinGecko API (no API key required).
+
 ---
 
 ## 🛑 IMPORTANT SECURITY WARNING 🛑
